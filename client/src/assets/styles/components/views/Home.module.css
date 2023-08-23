@@ -1,0 +1,168 @@
+.container {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.sectionPrimary {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.contentLogo {
+	width: 45%;
+	height: 500px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentLogo img {
+	width: 80%;
+	height: 100%;
+}
+
+.contentText {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.titleSection {
+	font-size: 30px;
+	font-family: roboto, sans-serif;
+	color: black;
+	width: 90%;
+	text-align: center;
+	background: var(--color-lightPink);
+}
+
+.textSection {
+	width: 80%;
+	font-size: 18px;
+	font-family: robotoItalica, sans-serif;
+	color: black;
+	letter-spacing: 1px;
+}
+
+.sectionSecondary {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.contentBox {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.boxSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 100px;
+	box-shadow: 2px 2px 15px var(--color-blue);
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: 1px solid var(--color-blue);
+	font-family: roboto, sans-serif;
+	font-weight: 300;
+}
+
+.boxSection:hover {
+	transform: scale(1.1);
+	transition: all 300ms;
+	box-shadow: 2px 2px 30px white inset;
+	cursor: pointer;
+	font-family: robotoItalica, sans-serif;
+	background: var(--color-blue);
+
+}
+
+/*RESPONSIVE PAGE*/
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+	.contentBox{
+		width: 90%;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.sectionPrimary{
+
+		width: 90%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		
+	}
+
+	.contentLogo{
+		width: 90%;
+		height: auto;
+	}
+
+	.contentText{
+		width: 90%;
+	}
+
+
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 360px) {
+}

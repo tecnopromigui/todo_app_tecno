@@ -1,0 +1,110 @@
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	width: 90%;
+	height: 500px;
+	background: var(--color-blue);
+	padding: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.newTask {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.newTask input {
+	font-size: 17px;
+	border: none;
+	padding: 0.7em 1.4em 0.7em 1.1em;
+	border-radius: 20em 0em 0em 20em;
+}
+
+/*Boton Add*/
+.cssbuttonsIoButton {
+	display: flex;
+	align-items: center;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 0.7em 1.4em 0.7em 1.1em;
+	color: black;
+	background: #ad5389;
+	background: linear-gradient(
+		0deg,
+		var(--color-pink) 0%,
+		var(--color-lightPink) 100%
+	);
+	border: none;
+	box-shadow: 0 0.7em 1.5em -0.5em #1f2ef798;
+	letter-spacing: 0.05em;
+	border-radius: 0em 20em 20em 0em;
+	cursor: pointer;
+}
+
+.cssbuttonsIoButton svg {
+	margin-right: 6px;
+}
+
+.cssbuttonsIoButton:hover {
+	box-shadow: 0 0.5em 1.5em -0.5em #1f2ef798;
+}
+
+.cssbuttonsIoButton:active {
+	box-shadow: 0 0.3em 1em -0.5em #1f2ef798;
+}
+
+.taskNotFound {
+	font-size: 20px;
+	font-family: robotoItalica, sans-serif;
+	color: black;
+}
+
+.contenteAllTasks {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+
+/*RESPONSIVE PAGE*/
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 360px) {
+}

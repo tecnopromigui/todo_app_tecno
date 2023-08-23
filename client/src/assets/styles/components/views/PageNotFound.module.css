@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: robotoItalica,sans-serif;
+}
+
+.contentLogo{
+    width: 50%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.contentLogo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*RESPONSIVE PAGE*/
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 360px) {
+}
