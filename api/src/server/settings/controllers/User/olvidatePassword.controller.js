@@ -1,6 +1,6 @@
 const { User } = require("../../../../db/models/relationShips");
-const { emailOlvidatePassword } = require("../../helper/user/email");
-const generarIdToken = require("../../helper/user/generarIdToken");
+const { emailOlvidatePassword } = require("../../helper/User/email");
+const generarIdToken = require("../../helper/User/generarIdToken");
 
 const olvidatePassword = async (req, res) => {
     const { email } = req.body;

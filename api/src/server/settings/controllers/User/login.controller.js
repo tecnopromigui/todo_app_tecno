@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const { User } = require("../../../../db/models/relationShips");
-const { generarJWT } = require("../../helper/user/generarJWT");
+const { generarJWT } = require("../../helper/User/generarJWT");
 
 
 const login = async (req, res) => {

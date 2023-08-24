@@ -1,7 +1,7 @@
 const bcrypt = require("bcrypt");
 require("dotenv").config();
 const { User } = require("../../../../db/models/relationShips");
-const { generarJWT } = require("../../helper/user/generarJWT");
+const { generarJWT } = require("../../helper/User/generarJWT");
 
 
 const googleLogin = async (req, res) => {

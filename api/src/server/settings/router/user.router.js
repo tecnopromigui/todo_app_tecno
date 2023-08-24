@@ -4,6 +4,7 @@ const {validateUser}=require("../middleware/User/ValidateUser.middleware");
 // const allUsers = require("../controllers/user/allUsers.controller");
 
 const registerUser = require("../controllers/User/registerUser.controller");
+//const login = require("../controllers/User/login.controller");
 const login = require("../controllers/User/login.controller");
 const confimarToken = require("../controllers/User/confimarToken.controller");
 const googleLogin = require("../controllers/User/googleLogin.controller");
